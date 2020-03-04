@@ -3,3 +3,4 @@ django-cleanup==2.1.0
 django-crispy-forms==1.9.0
 django-ckeditor==5.9.0 
 django-js-asset==1.2.2
+django-widget-tweaks==1.4.5

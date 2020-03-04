@@ -6,3 +6,14 @@ body{
 .page-content {
     min-height: 48.5vh;
 }
+
+.article-edit {
+    color: #707070;
+    font-size: 20px;
+    margin: 10px;
+}
+.article-delete {
+    color: #b60303;
+    font-size: 20px;
+    margin: 10px;
+}

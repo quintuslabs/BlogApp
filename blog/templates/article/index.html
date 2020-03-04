@@ -15,10 +15,11 @@ body {
 {% block page_title %}Blog - Home{% endblock %}
 {% block page_class %}home-page{% endblock %}
 {% block header %} {% include "includes/navbar.html" %}{% endblock %}
-{% block content %}
 
+
+{% block content %}
 <div class="jumbotron">
-  <h1 class="display-3">Hello, {{santosh}}</h1>
+  <h1 class="display-3">Hello, {{name}}</h1>
   <div class="row">
     <div class="col-sm-3">  
       <img src="{% static 'images/dummy1.png' %}" alt="My image" class="img-fluid">
