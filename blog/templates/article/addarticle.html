@@ -39,10 +39,10 @@
             </div>
           {% endfor %}
         {% else %}
-          {% render_field field class="form-control is-valid" %}
+          {% render_field field class="form-control is-valid test-class" %}
         {% endif %}
       {% else %}
-        {% render_field field class="form-control" %}
+        {% render_field field class="form-control test-class" %}
       {% endif %}
 
       {% if field.help_text %}
@@ -53,28 +53,7 @@
           
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
-
-          <br/>
-        <!-- <form method="POST" class="post-form" enctype="multipart/form-data">  
-            {% csrf_token %}  
-             <div class="form-group">
-                <label for="exampleFormControlInput1">Title</label>
-                {{ form.title }}  
-              </div>
-            
-             <div class="form-group">
-                <label for="exampleFormControlInput1">Description</label>
-                {{ form.content }}   
-              </div>
-             
-             <div class="form-group">
-                <label for="exampleFormControlInput1">Description</label>
-                {{form.media}}   
-              </div>
-             
-
-            <button type = "submit" class = "btn btn-primary">Add</button>
-        </form>     -->
+        <br/>
         
     </div>
   </div>
